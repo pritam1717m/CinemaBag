@@ -1,4 +1,4 @@
-import { Account, Profile, Session, TokenSet } from "next-auth";
+import { Session, TokenSet } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google";
 import { signUpType } from "../packages/zod";
