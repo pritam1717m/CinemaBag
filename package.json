@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:generate": "cd app/packages/db && npx prisma generate && cd ../../.."
   },
   "dependencies": {
     "@prisma/client": "^6.5.0",
