@@ -5,10 +5,10 @@ WORKDIR /app
 COPY package.json package.json
 
 RUN npm install
-RUN npm run db:generate
 
 COPY . .
 
+RUN npm run db:generate
 RUN npm run build
 
 EXPOSE 3000
